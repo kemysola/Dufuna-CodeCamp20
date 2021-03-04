@@ -23,7 +23,6 @@ body,html{
 	display: inline-block;
 	text-align: right;
 	float:left;
-
 }
 .box-3 input[type=text], input[type=email], input[type=number],input[type=password]{
 	display: block;
@@ -35,7 +34,6 @@ body,html{
 	margin-bottom:0;
 	padding-bottom: 0;
 }
-
 #btn{
 	color:orange;
 }
@@ -93,34 +91,34 @@ body,html{
 	padding-top:0.55rem;
 }
 input[type=text]{
-    	width:90%;
-    	box-sizing: border-box;
-    	border-radius:5px;
-    	padding:10px;
+    width:90%;
+    box-sizing: border-box;
+    border-radius:5px;
+    padding:10px;
     }
     input[type=password]{
-    	width:90%;
-    	box-sizing: border-box;
-    	border-radius:5px;
-    	padding:10px;
+    width:90%;
+    box-sizing: border-box;
+    border-radius:5px;
+    padding:10px;
     }
     input[type=email], input[type=number]{
-    	width:90%;
-    	box-sizing: border-box;
-    	border-radius:5px;
-    	padding:10px;
+    width:90%;
+    box-sizing: border-box;
+    border-radius:5px;
+    padding:10px;
     }
     #btnn{
-    	box-sizing: border-box;
-    	padding-left:40px;
-    	padding-right:30px;
-    	padding-top:5px;
-    	padding-bottom: 5px;
-    	margin-top: 13px;
-    	color:white;
-    	background:orange;
-    	border:orange;
-		margin-left:2rem;
+    box-sizing: border-box;
+    padding-left:40px;
+    padding-right:30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-top: 13px;
+    color:white;
+    background:orange;
+    border:orange;
+	margin-left:2rem;
 		
     }
     li{
@@ -178,20 +176,16 @@ input[type=text]{
 		padding-top: 0;
 		margin-bottom: 5rem;
 	}
-
-.input-button{
+    .input-button{
 	padding-left:1rem;
-}
+    }
 	.container-2 div{
 		flex-direction: column;
 		justify-content: flex-start;
 	}
-
 	.box-3 div{
 		margin-bottom: 4rem;
 		margin-right:0.55rem;
-
-
 	}
 	.box-1 div{
 		margin-top:3rem;
@@ -200,31 +194,27 @@ input[type=text]{
      	padding-top:5px;
      	padding-bottom:10px;
      }
-    
-    fieldset{
+    fieldset {
     	min-width: auto;
     	padding-right:1rem;
     }
-    
 	}
-	
 	@media only screen and (min-width:768px){
 	.select-2{
 		display: grid;
-			bottom: 0;
-			width: 100%;
-			grid-template-columns:1fr 1fr;
-			grid-template-rows: auto;
-			grid-template-areas:
-					"foot-1  foot-2"
-					"foot-1 foot-3";  
+		bottom: 0;
+		width: 100%;
+		grid-template-columns:1fr 1fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+		"foot-1  foot-2"
+		"foot-1 foot-3";  
 	}
 	.foot-1{
 		grid-area: foot-1;
 	}
 	.foot-2{
 		grid-area: foot-2;
-	
 	}
 	.foot-3{
 		grid-area: foot-3;
@@ -233,10 +223,7 @@ input[type=text]{
 		display:flex;
 		flex-direction:column;
 	}
-
-
 	}
-
 	@media only screen and (min-width:992px){
 		.select-1{
 			display:flex;
@@ -253,8 +240,7 @@ input[type=text]{
 			padding-right:10px;
 			font-size:20px;
 			font-weight:lighter;
-		}
-		
+		}	
 	}
 
 	
